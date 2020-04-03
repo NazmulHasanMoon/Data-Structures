@@ -1,0 +1,6 @@
+GT
+LE
+LT
+NE
+EQ
+GE
