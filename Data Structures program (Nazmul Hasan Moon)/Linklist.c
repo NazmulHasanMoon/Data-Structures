@@ -77,7 +77,8 @@ int main()
     append(&head,9);
     append(&head,4);///now list will be 3,5,9,4
     ///insert in a point that may be middile or 2nd element of linklist
-    insertAfter(head->next->next,6);///now list will be 3,5,9,6,4
+    Node *temp=head->next->next;
+    insertAfter(temp,6);///now list will be 3,5,9,6,4
     append(&head,9);
     append(&head,4);
     append(&head,12);

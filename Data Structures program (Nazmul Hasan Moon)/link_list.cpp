@@ -96,12 +96,14 @@ int main()
     insertAfter(head->next,9);
     Delete(&head,6);
     int n;
-    push(&head,2);
+    ///push(&head,2);
     insertAfter(head->next,11);
     print(head);
     printf("\n");
     scanf("%d",&n);
     deleteatpoint_n(&head,0,n);
     print(head);
+    linklist *h;
+    ///print(h);
     return 0;
 }
